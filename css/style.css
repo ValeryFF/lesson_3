@@ -1,0 +1,48 @@
+
+@import url('reset.css');
+
+.apple {
+	color:rgb(21, 139, 5);
+}
+
+.greentext {
+	color:rgb(21, 139, 5);
+}
+
+.bold {
+	font-weight: 900;
+}
+
+.greenlink {
+	color:rgb(21, 139, 5);
+	font-weight: 900;
+}
+
+/* горный велосипед */
+
+.bicyclelink {
+	font-weight: 900;
+}
+
+.bicycleblok {
+	color:mediumorchid;
+}
+
+#bicycle {
+	font-weight: 900;
+}
+
+.bicycleimg {
+	width: 700px;
+}
+
+.bicycleblok p {
+	color:rgb(192, 4, 183);
+}
+
+.bicycleblok .green {
+	color:green;
+}
+
+
+

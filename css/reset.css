@@ -1,0 +1,41 @@
+
+/** Обнуление стилей */
+
+*, /* обращение абсолютно ко всем объектам */
+*::before,  /* абсолютно ко всем псевдоэлементам */
+*::after {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+/* убираем маркеры */
+li {
+	list-style: none; 
+}
+
+/* убираем подчёркивание у ссылок */
+a,  
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;  /* шрифты наследуются */
+	font-size: inherit;
+}
+
+/* картинка */
+img {
+	vertical-align: top;
+}
